@@ -1,0 +1,339 @@
+@font-face {
+    font-family: Aerotis;
+    src: url(font/Aerotis.ttf);
+}
+
+@font-face {
+    font-family: SecretWinter;
+    src: url(font/Secret\ Winter.ttf);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#home {
+    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%), url(wedding-web-assets/BG.png) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text {
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+.landing-text h4 {
+    font-size: calc(1em +1.8vw);
+    font-weight: 400;
+    letter-spacing: 6px;
+    line-height: 150px;
+    font-family: 'Lato', sans-serif;
+}
+
+.landing-text h1 {
+    font-size: 600%;
+    font-weight: 600;
+    font-family: Aerotis;
+}
+
+.landing-text h2 {
+    font-size: 500%;
+    font-weight: 100;
+    font-family: SecretWinter;
+}
+
+.landing-text p {
+    font-size: calc(0.4rem + 1vw);
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-left: 27%;
+    padding-right: 27%;
+    padding-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.stage {
+    
+    display: flex;
+    height: 5px;
+    width: auto;
+}
+
+.arrow-down {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid hsl(30, 53%, 93%);
+    padding-bottom: 20px;
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-20px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+}
+
+.disclaimer{
+    font-size: calc(0.35rem + 1vw);
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.two-buttons {
+    text-align: center;
+
+}
+
+.btn {
+    height: 90px;
+    width: 330px;
+    border: 1px;
+    border-radius: 10px;
+    position: relative;
+    background-color: hsl(26, 63%, 12%);
+    font-size: calc(0.5rem + 1vw);
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 20px 20px;
+    font-family: 'Lato', sans-serif;
+    color: hsl(30, 53%, 93%);
+    transition: 0.8s ease 0s;;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+
+}
+.btn1 {
+    color:hsl(26, 63%, 12%);
+    background-color: hsl(30, 53%, 93%) ;
+}
+
+.btn2 {
+    color:hsl(26, 63%, 12%);
+    background-color: hsl(30, 53%, 93%) ;
+}
+
+.btn1:hover {
+    color:hsl(30, 53%, 93%);
+    background-color: hsl(26, 63%, 12%) ;
+    transform: translateY(-7px);
+}
+
+.btn2:hover {
+    color:hsl(30, 53%, 93%);
+    background-color: hsl(26, 63%, 12%) ;
+    transform: translateY(-7px);
+}
+
+i.fa {
+    font-size: 50px;
+    padding-right: 15px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.about-us {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Aerotis;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+#rectangle {
+    width: 100%;
+    display: table;
+    background:linear-gradient(to bottom, white 0%, white 10%, hsl(30, 53%, 93%) 10%, hsl(30, 53%, 93%) 90%, white 90%, white 100%);
+  }
+
+.about-ervina p {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: calc(0.3rem + 1vw);
+    vertical-align: middle;
+    padding-top: 35px;
+
+}
+
+.about-angga p {
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: calc(0.3rem + 1vw);
+    vertical-align: middle;
+    padding-top: 35px;
+
+}
+
+.about-photo img {
+    width:90% ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#address {
+    background: url(wedding-web-assets/curved-flower.svg) no-repeat center center;
+    height:auto;
+    position:relative;
+    background-size:auto;
+    display: block;
+    padding-bottom: 300px;
+
+}
+.detail-address h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Aerotis;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+.detail-address h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: calc(1.2rem + 1vw);
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 60px;
+}
+
+#_footer {
+    width: 100%;
+    height: auto;
+    background:hsl(26, 63%, 12%);
+  }
+
+
+.bee-flower-img img {
+    background-size: cover;
+    display:grid;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+.footer-desc p {
+    text-align:left;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: calc(0.35rem + 1vw);
+    padding: 50px;
+    margin: auto;
+}
+
+.footer-desc h2{
+    text-align:right;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding-right: 50px;
+    font-size: 0.6rem;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+/** DONATION **/
+
+#home-donation {
+    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%), url(wedding-web-assets/donation-bg.png) no-repeat center center fixed ;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#donation-rectangle {
+    width: 100%;
+    height: 714px;
+    display: table;
+    background:linear-gradient(to bottom, white 0%, white 20%, hsl(30, 53%, 93%) 20%, hsl(30, 53%, 93%) 100%);
+  }
+
+.donation {
+    margin-top: 8%;
+}
+
+.nav-custom {
+    font-family: 'Lato', sans-serif;
+    display:flex;
+}
+
+.nav-pills .nav-link.active {
+    background-color: hsl(30, 53%, 93%);
+    color: hsl(26, 63%, 12%);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+
+.nav-custom li a {
+    color: hsl(26, 63%, 12%);
+    background-color:white;
+    margin-left:20px;
+    margin-right:20px;
+    height: 70px;
+    width: 300px;
+    padding: 20px 20px;
+    font-size: 18px;
+}
+
+i.fas {
+    font-size: 25px;
+    padding-right: 15px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.tab-content {
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-right: 5%;
+    line-height: 30px;
+}
+
+.tab-content img {
+    width:60% ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab-content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: hsl(26, 63%, 12%);
+}
+
+
