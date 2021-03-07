@@ -33,6 +33,17 @@
         font-family: 'Lato', sans-serif;
     }
 
+    .landing-text P {
+        font-size: calc(0.5rem + 1vw);
+        font-weight: 200;
+        line-height: 30px;
+        letter-spacing: 1px;
+        padding-left: 27%;
+        padding-right: 27%;
+        padding-bottom: 50px;
+        font-family: 'Lato', sans-serif;
+    }
+
     .disclaimer{
         font-size: calc(0.5rem + 1vw);
         font-weight: 400;
@@ -69,8 +80,8 @@
     }
     .btn1 {
         margin-bottom: 30px;
-        color:hsl(30, 53%, 93%);
-        background-color: hsl(26, 63%, 12%) ;
+        color: hsl(26, 63%, 12%) ;
+        background-color:hsl(30, 53%, 93%);
     }
 
     .btn2 {
@@ -80,8 +91,8 @@
     }
 
     .btn1:hover {
-        color:hsl(26, 63%, 12%);
-        background-color: hsl(30, 53%, 93%) ;
+        color:hsl(30, 53%, 93%);
+        background-color: hsl(26, 63%, 12%) ;
         transform: translateY(-7px);
     }
     
@@ -119,7 +130,7 @@
         font-family: 'Lato', sans-serif;
         line-height: 30px;
         letter-spacing: 1px;
-        font-size: calc(0.3rem + 1vw);
+        font-size: calc(0.5rem + 1vw);
         vertical-align: middle;
         padding-top: 5px;
     
@@ -130,7 +141,7 @@
         font-family: 'Lato', sans-serif;
         line-height: 30px;
         letter-spacing: 1px;
-        font-size: calc(0.3rem + 1vw);
+        font-size: calc(0.5rem + 1vw);
         vertical-align: middle;
         padding-top: 15px;
     
@@ -166,7 +177,7 @@
     .detail-address h2 {
         text-align: center;
         font-family: 'Lato', sans-serif;
-        font-size: 16px;
+        font-size: calc(0.5rem + 1vw);
         font-weight: 400;
         letter-spacing: 3px;
         line-height: 50px;
