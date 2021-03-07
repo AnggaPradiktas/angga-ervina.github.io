@@ -33,7 +33,7 @@
         font-family: 'Lato', sans-serif;
     }
 
-    .landing-text P {
+    .landing-text p {
         font-size: calc(0.5rem + 1vw);
         font-weight: 200;
         line-height: 30px;
