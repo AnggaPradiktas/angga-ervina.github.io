@@ -12,6 +12,7 @@ html, body {
     height: 100%;
     width: 100%;
 }
+
 #home {
     background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%), url(wedding-web-assets/BG.png) no-repeat center center fixed ;
     display: table;

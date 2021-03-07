@@ -144,8 +144,8 @@
     }
     
     #address {
-        background: url(wedding-web-assets/curved-flower.svg) no-repeat center center;
-        background-size: 500px 500px;
+        background: url(wedding-web-assets/curved-flower-mobile.svg) no-repeat center center;
+        background-size: 400px 400px;
         position:relative;
         display: block;
         padding-bottom: 200px;
@@ -159,7 +159,7 @@
         letter-spacing: 1px;
         text-align: center;
         font-family: Aerotis;
-        padding-top: 100px;
+        padding-top: 80px;
         padding-bottom: 50px;
     }
 
