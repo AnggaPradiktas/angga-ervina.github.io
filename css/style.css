@@ -316,6 +316,13 @@ i.fas {
     vertical-align: middle;
 }
 
+.material-icons {
+    font-size: 25px;
+    padding-right: 15px;
+    position: relative;
+    vertical-align: middle;
+}
+
 .tab-content {
     margin-top: 8%;
     margin-left: 2%;
@@ -330,7 +337,7 @@ i.fas {
     margin-right: auto;
 }
 
-.tab-content p,h4, b {
+.donation .tab-content p, b, h3 {
     font-family: 'Lato', sans-serif;
     color: hsl(26, 63%, 12%);
 }
