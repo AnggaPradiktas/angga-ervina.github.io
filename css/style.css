@@ -337,9 +337,15 @@ i.fas {
     margin-right: auto;
 }
 
-.donation .tab-content p, b, h3 {
+.donation .tab-content p, b, h3, li {
     font-family: 'Lato', sans-serif;
     color: hsl(26, 63%, 12%);
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+.delivery {
+    margin-left: 25%;
 }
 
 
