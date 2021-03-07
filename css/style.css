@@ -238,8 +238,8 @@ i.fa {
 
 
 .bee-flower-img img {
-    background-size: cover;
-    display:grid;
+    background-size:auto;
+    display:block;
     margin-left:auto;
     margin-right: auto;
   }
