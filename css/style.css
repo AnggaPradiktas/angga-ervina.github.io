@@ -330,9 +330,8 @@ i.fas {
     margin-right: auto;
 }
 
-.tab-content p {
+.tab-content p,h4, b {
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
     color: hsl(26, 63%, 12%);
 }
 
