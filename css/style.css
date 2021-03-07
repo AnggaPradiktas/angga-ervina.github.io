@@ -239,6 +239,7 @@ i.fa {
 
 .bee-flower-img img {
     max-width: 100%;
+    width: 100% \9;
     height: auto;
   }
 
