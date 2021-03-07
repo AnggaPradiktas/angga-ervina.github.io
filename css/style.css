@@ -174,18 +174,19 @@ i.fa {
 .about-ervina p {
     text-align: left;
     font-family: 'Lato', sans-serif;
-    line-height: 40px;
-    letter-spacing: 1px;
+    line-height: 35px;
+    letter-spacing: 0.75px;
     font-size: calc(0.3rem + 1vw);
     vertical-align: middle;
     padding-top: 35px;
+    padding-right: 5px;
 
 }
 
 .about-angga p {
     text-align: right;
     font-family: 'Lato', sans-serif;
-    line-height: 40px;
+    line-height: 35px;
     letter-spacing: 1px;
     font-size: calc(0.3rem + 1vw);
     vertical-align: middle;
