@@ -11,6 +11,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 #home {
@@ -32,6 +33,7 @@ html, body {
     font-weight: 400;
     letter-spacing: 6px;
     line-height: 150px;
+    margin-top: 30px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -58,7 +60,7 @@ html, body {
     font-family: 'Lato', sans-serif;
 }
 
-.stage {
+/* .stage {
     
     display: flex;
     height: 5px;
@@ -89,7 +91,7 @@ html, body {
     30%  { transform: scale(.9,1.1) translateY(-20px); }
     50%  { transform: scale(1,1)    translateY(0); }
     100% { transform: scale(1,1)    translateY(0); }
-}
+} */
 
 .disclaimer{
     font-size: calc(0.35rem + 1vw);
@@ -266,6 +268,24 @@ i.fa {
     line-height: 15px;
 }
 
+/* NAVBAR */
+
+.bg-transparent {
+    transition: 500ms ease;
+}
+
+.bg-transparent.scrolled {
+    background-color:hsl(26, 63%, 12%) !important;
+}
+
+.abc {
+    color: white !important;
+}
+
+.navbar-nav a {
+    font-size: 12px;
+}
+
 /** DONATION **/
 
 #home-donation {
@@ -304,8 +324,6 @@ i.fa {
     background-color:white;
     margin-left:20px;
     margin-right:20px;
-    height: 70px;
-    width: 300px;
     padding: 20px 20px;
     font-size: 18px;
 }

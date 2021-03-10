@@ -1,4 +1,4 @@
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 850px) {
     @font-face {
         font-family: Aerotis;
         src: url(font/Aerotis.ttf);
@@ -13,6 +13,15 @@
         height: 100%;
         width: 100%;
     }
+
+    .navbar {
+        background-color:hsl(26, 63%, 12%)
+    }
+
+    .navbar-nav a {
+        font-size: 8px;
+    }
+
     .landing-text h1 {
         font-size: 300%;
         font-weight: 600;
@@ -31,6 +40,7 @@
         letter-spacing: 6px;
         line-height: 100px;
         font-family: 'Lato', sans-serif;
+        padding-top: 50px;
     }
 
     .landing-text p {
