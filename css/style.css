@@ -128,23 +128,12 @@ html, body {
     outline: none;
 
 }
-.btn1 {
+.btn1, .btn2 {
     color:hsl(26, 63%, 12%);
     background-color: hsl(30, 53%, 93%) ;
 }
 
-.btn2 {
-    color:hsl(26, 63%, 12%);
-    background-color: hsl(30, 53%, 93%) ;
-}
-
-.btn1:hover {
-    color:hsl(30, 53%, 93%);
-    background-color: hsl(26, 63%, 12%) ;
-    transform: translateY(-7px);
-}
-
-.btn2:hover {
+.btn1:hover, .btn2:hover {
     color:hsl(30, 53%, 93%);
     background-color: hsl(26, 63%, 12%) ;
     transform: translateY(-7px);
@@ -178,11 +167,10 @@ i.fa {
     text-align: left;
     font-family: 'Lato', sans-serif;
     line-height: 35px;
-    letter-spacing: 0.75px;
+    letter-spacing: 1px;
     font-size: calc(0.3rem + 1vw);
     vertical-align: middle;
     padding-top: 40px;
-    padding-right: 5px;
 
 }
 

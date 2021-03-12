@@ -1,4 +1,4 @@
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 800px) {
     @font-face {
         font-family: Aerotis;
         src: url(font/Aerotis.ttf);
@@ -88,25 +88,13 @@
         outline: none;
     
     }
-    .btn1 {
+    .btn1, .btn2 {
         margin-bottom: 30px;
         color: hsl(26, 63%, 12%) ;
         background-color:hsl(30, 53%, 93%);
     }
 
-    .btn2 {
-        margin-bottom: 3px;
-        color:hsl(26, 63%, 12%);
-        background-color: hsl(30, 53%, 93%) ;
-    }
-
-    .btn1:hover {
-        color:hsl(30, 53%, 93%);
-        background-color: hsl(26, 63%, 12%) ;
-        transform: translateY(-7px);
-    }
-    
-    .btn2:hover {
+    .btn1:hover, .btn2:hover {
         color:hsl(30, 53%, 93%);
         background-color: hsl(26, 63%, 12%) ;
         transform: translateY(-7px);
@@ -233,5 +221,91 @@
         height: 60px;
         width: 300px;
         padding: 15px 15px;
+    }
+}
+
+
+@media (min-width: 801px) and (max-width: 999px) {
+    .btn1, .btn2 {
+        margin-bottom: 50px;
+        color: hsl(26, 63%, 12%) ;
+        background-color:hsl(30, 53%, 93%);
+    }
+
+    #rectangle {
+        width: 100%;
+        height: fit-content;
+        display: table;
+        background: hsl(30, 53%, 93%);
+      }
+
+    .about-photo img {
+        width:40% ;
+        display:flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-angga p {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-size: calc(0.5rem + 1vw);
+        vertical-align: middle;
+        padding-top: 15px;
+    
+    }
+
+    .about-ervina p {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-size: calc(0.5rem + 1vw);
+        vertical-align: middle;
+        padding-top: 5px;
+    
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .about-angga p {
+        text-align: right;
+        font-family: 'Lato', sans-serif;
+        line-height: 25px;
+        letter-spacing: 1px;
+        font-size: calc(0.3rem + 1vw);
+        vertical-align: middle;
+        padding-top: 40px;
+    
+    }
+
+    .about-ervina p {
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        line-height: 25px;
+        letter-spacing: 1px;
+        font-size: calc(0.3rem + 1vw);
+        vertical-align: middle;
+        padding-top: 40px;
+        
+    
+    }
+
+    .about-photo img {
+        width:80% ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1450px) {
+    .btn1, .btn2 {
+        width: 300px;
+        color: hsl(26, 63%, 12%) ;
+        background-color:hsl(30, 53%, 93%);
     }
 }
