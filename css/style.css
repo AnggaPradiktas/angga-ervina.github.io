@@ -169,9 +169,7 @@ i.fa {
     line-height: 35px;
     letter-spacing: 1px;
     font-size: calc(0.3rem + 1vw);
-    vertical-align: middle;
     padding-top: 40px;
-
 }
 
 .about-angga p {
@@ -180,7 +178,6 @@ i.fa {
     line-height: 35px;
     letter-spacing: 1px;
     font-size: calc(0.3rem + 1vw);
-    vertical-align: middle;
     padding-top: 40px;
 
 }
