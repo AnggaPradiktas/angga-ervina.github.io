@@ -240,6 +240,10 @@
         display: table;
         background: hsl(30, 53%, 93%) 20%;
       }
+    
+    .donation {
+        justify-items: center;
+    }
 
     .donation .tab-content p, b, li {
         font-family: 'Lato', sans-serif;
@@ -265,6 +269,8 @@
     .tab-content .bca-qr, .delivery-box {
         margin-top: 10%;
     }
+
+
 }
 
 
