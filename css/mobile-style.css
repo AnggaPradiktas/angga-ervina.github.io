@@ -212,23 +212,22 @@
         font-size: 6px;
         font-weight: 300;
     }
+    
+    /* donation */
 
     .nav-custom {
         font-family: 'Lato', sans-serif;
         display:block;
-        
     }
 
     .nav-custom li a {
         color: hsl(26, 63%, 12%);
-        background-color:white;
-        margin-left:20px;
-        margin-right:20px;
-        height: 50px;
-        width: 200px;
-        padding: 15px 15px;
+        background-color:white; 
+        width:auto;
         font-size: 12px;
+        margin-bottom: 0.1%;
     }
+
     i.fas {
         font-size: 18px;
         position: relative;
@@ -240,10 +239,6 @@
         display: table;
         background: hsl(30, 53%, 93%) 20%;
       }
-    
-    .donation {
-        justify-items: center;
-    }
 
     .donation .tab-content p, b, li {
         font-family: 'Lato', sans-serif;
@@ -251,6 +246,11 @@
         font-weight: 400;
         letter-spacing: 1.2px;
         font-size: 12px;
+    }
+
+    .donation h3 {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
     }
       
     .tab-content img {
