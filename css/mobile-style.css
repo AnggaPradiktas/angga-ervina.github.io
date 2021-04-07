@@ -383,10 +383,49 @@
 
 }
 
+/* large screen */
 @media (min-width: 1200px) and (max-width: 1450px) {
     .btn1, .btn2 {
         width: 300px;
         color: hsl(26, 63%, 12%) ;
         background-color:hsl(30, 53%, 93%);
     }
+}
+
+/* very large screen */
+@media (min-width: 1600px) and (max-width: 3000px) {
+    .about-angga p {
+        text-align: right;
+        font-family: 'Lato', sans-serif;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-size: calc(0.2rem + 0.8vw);
+        vertical-align: middle;
+        padding-top: 40px;
+    }
+
+    .about-ervina p {
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-size: calc(0.2rem + 0.8vw);
+        vertical-align: middle;
+        padding-top: 40px;
+    }
+
+    .about-photo img {
+        width:80% ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tab-content img {
+        width:60% ;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
