@@ -394,6 +394,16 @@
 
 /* very large screen */
 @media (min-width: 1600px) and (max-width: 3000px) {
+    .landing-text p {
+        font-size: calc(0.5rem + 0.98vw);
+        font-weight: 200;
+        line-height: 40px;
+        letter-spacing: 1px;
+        padding-left: 27%;
+        padding-right: 27%;
+        padding-bottom: 5%;
+        font-family: 'Lato', sans-serif;
+    }
 
     .btn {
         height: 90px;
