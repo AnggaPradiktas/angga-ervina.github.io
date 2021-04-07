@@ -394,6 +394,39 @@
 
 /* very large screen */
 @media (min-width: 1600px) and (max-width: 3000px) {
+
+    .btn {
+        height: 90px;
+        width: 330px;
+        border: 1px;
+        border-radius: 10px;
+        position: relative;
+        background-color: hsl(26, 63%, 12%);
+        font-size: calc(0.5rem + 0.75vw);
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding: 20px 20px;
+        font-family: 'Lato', sans-serif;
+        color: hsl(30, 53%, 93%);
+        transition: 0.8s ease 0s;;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        outline: none;
+    
+    }
+
+    .btn1, .btn2 {
+        margin-bottom: 30px;
+        color: hsl(26, 63%, 12%) ;
+        background-color:hsl(30, 53%, 93%);
+    }
+
+    .btn1:hover, .btn2:hover {
+        color:hsl(30, 53%, 93%);
+        background-color: hsl(26, 63%, 12%) ;
+        transform: translateY(-7px);
+    }
+
     .about-angga p {
         text-align: right;
         font-family: 'Lato', sans-serif;
